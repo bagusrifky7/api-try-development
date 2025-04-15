@@ -28,7 +28,7 @@ def getDataByName(name: str):
     # load data to pandas
     df = pd.read_csv('data.csv')
 
-    # store to variable
+    # store to variable 
     result = df[df['name'] == name]
     
     if len(result) > 0:
